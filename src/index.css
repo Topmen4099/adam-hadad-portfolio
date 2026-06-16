@@ -1,0 +1,9 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.navbar-dark .nav-link {
+  color: white !important;
+}
+
+main {
+  padding: 0.5rem 2rem;
+}
