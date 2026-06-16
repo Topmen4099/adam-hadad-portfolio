@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-secondary px-4">
+    <nav className="navbar navbar-expand-lg sticky-top bg-body-secondary px-4">
       <div className="container">
         <button
           className="navbar-toggler"
