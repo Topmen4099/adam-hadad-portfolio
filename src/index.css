@@ -11,3 +11,14 @@ main {
 .card {
   background-color: rgba(255, 255, 255, 0.05) !important;
 }
+
+.fade-in {
+  animation: fadeIn 1s ease-in forwards;
+  opacity: 0;
+  animation-delay: 1.5s;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
