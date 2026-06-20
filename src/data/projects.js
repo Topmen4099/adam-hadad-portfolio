@@ -4,7 +4,7 @@ export const professionalProjects = [
     tech: "TypeScript, React, Firebase, Convex, Vercel, Google AI Studio",
     description: "A production-ready law firm case management SaaS with role-based access control, multi-tenant organization support, and a real-time data layer. Features AI-powered PDF docket audit reports and per-associate performance briefings using the Gemini API. Made in collaboration with Daniel Segal.",
     github: "https://github.com/Topmen4099/litigation-command-center",
-    live: "https://www.lawgnition.com/"
+    live: "https://www.lawgnition.com"
   }
 ]
 
@@ -12,9 +12,9 @@ export const academicProjects = [
   {
     name: "Web Security Final",
     course: "Web Security Basics - CST8265",
-    tech: "Various",
+    tech: "PHP",
     date: "2025-08-09",
-    description: "A web security final project completed as a group with Filip Popendyk and Daniel Khojaste.",
+    description: "A PHP web application demonstrating common web security vulnerabilities alongside their secure counterparts. Built as a group project with Filip Popendyk and Daniel Khojaste.",
     github: "https://github.com/Topmen4099/web-security-final-cst8265"
   },
   {
@@ -22,7 +22,7 @@ export const academicProjects = [
     course: "Web Programming Languages II - CST8259",
     tech: "React.js",
     date: "2025-07-30",
-    description: "A trivia web app that fetches questions and categories from an API, with score tracking, Local Storage persistence, and a quiz history view showing past attempts.",
+    description: "A responsive single-page React app where users take a 10-question quiz from a selected category using the Open Trivia Database API, with score tracking and quiz history saved to Local Storage.",
     github: "https://github.com/Topmen4099/trivia-cst8259",
     live: "https://adam-hadad-trivia-cst8259.vercel.app/"
   },
@@ -37,9 +37,9 @@ export const academicProjects = [
   {
     name: "Gradebook",
     course: "Web Programming Languages II - CST8259",
-    tech: "Laravel, PHP",
+    tech: "C#, Entity Framework, SQLite",
     date: "2025-05-28",
-    description: "A gradebook management application built with Laravel.",
+    description: "A database-driven Grade Book API built with C# and Entity Framework, supporting CRUD operations across multiple database tables using SQLite.",
     github: "https://github.com/Topmen4099/gradebook-cst8259"
   },
   {
@@ -47,15 +47,15 @@ export const academicProjects = [
     course: "Web Applications Development - CST8257",
     tech: "PHP",
     date: "2024-12-04",
-    description: "A social media web application built as a group project with Andre Cunha and Richer Bueno.",
+    description: "A PHP social media web app with user authentication, friend management, photo albums, and a news feed. Built as a group project with Andre Cunha and Richer Bueno.",
     github: "https://github.com/Topmen4099/social-media-final-php-cst8257"
   },
   {
     name: "Registrar",
     course: "Web Programming II - CST8253",
-    tech: "C#, Razor/Blazor",
+    tech: "C#, Blazor, SQL",
     date: "2024-08-16",
-    description: "A registrar web application built for managing student records.",
+    description: "A database-driven student registration web application built with Blazor and SQL, supporting CRUD operations for student records.",
     github: "https://github.com/Topmen4099/registrar-cst8253"
   },
   {
@@ -71,7 +71,7 @@ export const academicProjects = [
     course: "Web Programming I - CST8209",
     tech: "HTML, CSS, JavaScript",
     date: "2024-04-19",
-    description: "A web app displaying Pokémon data with interactive pop-ups for type and abilities, and Local Storage features to catch and release Pokémon.",
+    description: "A Pokédex web app using the PokéAPI to display a gallery of Pokémon with images. Users can load more Pokémon, view details about specific ones, and mark them as caught using Local Storage.",
     github: "https://github.com/Topmen4099/pokedex-cst8209",
     live: "https://adam-hadad-pokedex-cst8209.vercel.app/"
   },
@@ -80,7 +80,7 @@ export const academicProjects = [
     course: "Web Programming I - CST8209",
     tech: "HTML, CSS, JavaScript",
     date: "2024-04-02",
-    description: "A fun Mad Libs web app built with vanilla JavaScript.",
+    description: "A Mad Libs web app built using JavaScript form and event handling, where users fill in words to generate a fun story.",
     github: "https://github.com/Topmen4099/mad-libs-cst8209",
     live: "https://adam-hadad-mad-libs-cst8209.vercel.app/"
   },
@@ -98,7 +98,7 @@ export const academicProjects = [
     course: "Cross-Platform Web Design - CST8117",
     tech: "HTML, CSS",
     date: "2024-03-23",
-    description: "A responsive landing page built as part of a cross-platform web design course.",
+    description: "A cross-platform landing page built to closely match provided design mockups using HTML and CSS.",
     github: "https://github.com/Topmen4099/landing-page-cst8117",
     live: "https://adam-hadad-landing-page-cst8117.vercel.app/"
   }
