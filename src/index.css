@@ -21,3 +21,18 @@ main {
   from { opacity: 0; }
   to { opacity: 1; }
 }
+
+.professional-card {
+  border-left: 4px solid #f59e0b !important;
+  border-right: 4px solid #f59e0b !important;
+}
+
+.about-card {
+  border-left: 4px solid rgb(212, 30, 30) !important;
+  border-right: 4px solid rgb(212, 30, 30) !important;
+}
+
+.academic-card {
+  border-left: 4px solid dodgerblue !important;
+  border-right: 4px solid dodgerblue !important;
+}

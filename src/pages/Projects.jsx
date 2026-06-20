@@ -20,7 +20,7 @@ function Projects() {
       <div className="row g-4 mb-5">
         {professionalProjects.map((project) => (
           <div className="col-md-6" key={project.name}>
-            <div className="card h-100">
+            <div className="card h-100 professional-card">
               <div className="card-body d-flex flex-column">
                 <h3 className="h5 card-title">{project.name}</h3>
                 <p className="text-muted mb-2"><small>{project.tech}</small></p>
@@ -53,7 +53,7 @@ function Projects() {
       <div className="row g-4">
         {sortedAcademic.map((project) => (
           <div className="col-md-4" key={project.name}>
-            <div className="card h-100">
+            <div className="card h-100 academic-card">
               <div className="card-body d-flex flex-column">
                 <h3 className="h5 card-title">{project.name} <small className="text-muted fs-6">· {new Date(project.date).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })}</small></h3>
                 <p className="text-muted mb-2"><small>{project.course}</small></p>
