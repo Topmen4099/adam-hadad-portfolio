@@ -1,6 +1,17 @@
+import { useState } from 'react'
 import { professionalProjects, academicProjects } from '../data/projects'
 
 function Projects() {
+  const [sort, setSort] = useState('date-desc')
+
+  const sortedAcademic = [...academicProjects].sort((a, b) => {
+    if (sort === 'date-desc') return new Date(b.date) - new Date(a.date)
+    if (sort === 'date-asc') return new Date(a.date) - new Date(b.date)
+    if (sort === 'alpha') return a.name.localeCompare(b.name)
+    if (sort === 'course') return a.course.localeCompare(b.course)
+    return 0
+  })
+
   return (
     <div className="container py-4">
       <h1>Projects</h1>
@@ -26,14 +37,26 @@ function Projects() {
         ))}
       </div>
 
-      <h2 className="h4 mb-3">Academic</h2>
+      <div className="d-flex justify-content-between align-items-center mb-3">
+        <h2 className="h4 mb-0">Academic</h2>
+        <select
+          className="form-select w-auto"
+          value={sort}
+          onChange={(e) => setSort(e.target.value)}
+        >
+          <option value="date-desc">Newest First</option>
+          <option value="date-asc">Oldest First</option>
+          <option value="alpha">Alphabetical</option>
+          <option value="course">By Course</option>
+        </select>
+      </div>
       <div className="row g-4">
-        {academicProjects.map((project) => (
+        {sortedAcademic.map((project) => (
           <div className="col-md-4" key={project.name}>
             <div className="card h-100">
               <div className="card-body d-flex flex-column">
-                <h3 className="h5 card-title">{project.name}</h3>
-                <p className="text-muted mb-1"><small>{project.course}</small></p>
+                <h3 className="h5 card-title">{project.name} <small className="text-muted fs-6">· {new Date(project.date).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })}</small></h3>
+                <p className="text-muted mb-2"><small>{project.course}</small></p>
                 <p className="text-muted mb-2"><small>{project.tech}</small></p>
                 <p className="card-text flex-grow-1">{project.description}</p>
                 <div className="d-flex gap-2 mt-3">
