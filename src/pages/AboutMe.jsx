@@ -4,7 +4,7 @@ function AboutMe() {
       <h1>About Me</h1>
       <p className="lead mb-4">
         I'm a recent Web Development & Internet Applications graduate from Algonquin College 
-        with a background in computer science from York University. I'm passionate about building clean, functional web experiences.
+        with a background in computer science from York University. I'm passionate about building clean, functional web applications.
       </p>
 
       <h2 className="h4 mt-4 mb-3">Skills</h2>

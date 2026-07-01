@@ -3,7 +3,7 @@ import { useState } from 'react'
 import useTypewriter from '../hooks/useTypewriter'
 
 const headingText = "Hi, I'm Adam Hadad"
-const subtextText = "A recent web development graduate eager to build clean, functional web experiences."
+const subtextText = "A recent web development graduate eager to build clean, functional web applications."
 const headingSpeed = 75
 
 const headingDuration = headingText.length * headingSpeed
