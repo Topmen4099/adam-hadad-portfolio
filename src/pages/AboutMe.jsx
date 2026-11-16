@@ -3,12 +3,12 @@ function AboutMe() {
     <div className="container py-4">
       <h1>About Me</h1>
       <p className="lead mb-4">
-        I'm a recent Web Development & Internet Applications graduate from Algonquin College 
-        with a background in computer science from York University. I'm passionate about building clean, functional web applications.
+        I'm an AI trainer with a Web Development & Internet Applications diploma from Algonquin College
+        and Bachelor of Science (BSc) from York University, where I specialized in computer science.
       </p>
 
       <h2 className="h4 mt-4 mb-3">Skills</h2>
-      
+
       <div className="row g-4">
         <div className="col-md-4">
           <div className="card h-100 about-card">
@@ -30,7 +30,20 @@ function AboutMe() {
           <div className="card h-100 about-card">
             <div className="card-body">
               <h3 className="h6 card-title text-uppercase text-muted mb-3">Tools & Other</h3>
-              <p className="card-text">Figma, Adobe Photoshop, Illustrator, QuickBooks, Microsoft Office, Google Drive</p>
+              <p className="card-text">Figma, Adobe Photoshop, Illustrator, QuickBooks, Microsoft Office, Google Drive, ChatGPT, Claude</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2 className="h4 mt-5 mb-3">Experience</h2>
+      <div className="row g-4">
+        <div className="col-md-6">
+          <div className="card h-100 about-card">
+            <div className="card-body">
+              <h3 className="h6 card-title mb-1">Independent Contractor/AI Trainer - Mercor Intelligence (Remote)</h3>
+              <p className="text-muted mb-2">May 2026 – Present</p>
+              <p className="mb-0">Evaluated AI-generated content based on task-specific criteria.</p>
             </div>
           </div>
         </div>
