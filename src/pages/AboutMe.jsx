@@ -4,7 +4,7 @@ function AboutMe() {
       <h1>About Me</h1>
       <p className="lead mb-4">
         I'm an AI trainer with a Web Development & Internet Applications diploma from Algonquin College
-        and Bachelor of Science (BSc) from York University, where I specialized in computer science.
+        and Bachelor of Science (BSc) from York University.
       </p>
 
       <h2 className="h4 mt-4 mb-3">Skills</h2>
@@ -43,7 +43,7 @@ function AboutMe() {
             <div className="card-body">
               <h3 className="h6 card-title mb-1">Independent Contractor/AI Trainer - Mercor Intelligence (Remote)</h3>
               <p className="text-muted mb-2">May 2026 – Present</p>
-              <p className="mb-0">Evaluated AI-generated content based on task-specific criteria.</p>
+              <p className="mb-0">Evaluate AI-generated content based on task-specific criteria.</p>
             </div>
           </div>
         </div>
